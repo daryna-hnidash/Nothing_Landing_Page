@@ -1,0 +1,16 @@
+.main {
+  &__section {
+    padding-top: 96px;
+
+    @include onTablet {
+      padding-top: 120px;
+    }
+
+    &--animated {
+      transform: translateY(20%);
+      opacity: 0;
+
+      transition: all, 0.8s;
+    }
+  }
+}

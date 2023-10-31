@@ -1,0 +1,39 @@
+.recommended {
+  &__title {
+    margin: 0 0 48px;
+  }
+
+  &__products {
+    @include gridPage;
+    row-gap: 40px;
+
+    @include onTablet {
+      row-gap: 56px;
+    }
+  }
+
+  &__product {
+    grid-column: 1/-1;
+
+    @include onDesktop {
+      grid-column: span 4;
+    }
+
+    transform: translateY(10%);
+    opacity: 0;
+
+    @for $n from 1 through 3 {
+      $delay: $n * 0.2;
+      &:nth-child(#{$n}) {
+        @if $n == 1 {
+          transition: all 0.8s ease 0s;
+        }
+        @else {
+          transition: all 0.8s ease #{$delay + s};
+        }
+      }
+    }
+
+    transition: all, 2s;
+  }
+}
