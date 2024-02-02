@@ -10,6 +10,7 @@ Landing page leverages  HTML for semantic markup, Sass for maintainable styles, 
 - JavaScript
 - BEM (Block Element Modifier)
 
-**[Figma design](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&mode=design)**
+**[Figma design](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&mode=design)**
+
 
 **[DEMO LINK](https://daryna-hnidash.github.io/Nothing_Landing_Page/)**
